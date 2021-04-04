@@ -47,6 +47,15 @@ header {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #c495fc;
+}
+
+a:hover {
+  color: #1DDECB;
+}
+
 #navbar a {
   display: block;
   padding: 10px 30px;
@@ -55,7 +64,7 @@ header {
   cursor: pointer;
 }
 
-a:hover {
+#navbar a:hover {
   background-color: #c495fc;
 }
 
