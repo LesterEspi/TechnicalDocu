@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documentation</title>
+	<link rel="stylesheet" type="text/css" href="TechnicalDocuStyles.css">
+</head>
+<body>
+	<nav id="navbar">
+	  <header>Python Basics</header>
+	  <ul>
+	    <li><a class="nav-link" href="#What_is_Python">What is Python</a></li>
+	    <li>
+	      <a class="nav-link" href="#Why_Python"
+	        >Why Python</a
+	      >
+	    </li>
+	    <li>
+	      <a class="nav-link" href="#Start_with_the_Basics">Start with the Basics</a>
+	    </li>
+	    <li><a class="nav-link" href="#Variables">Variables</a></li>
+	    <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+	    <li>
+	      <a class="nav-link" href="#Type_Casting">Type Casting</a>
+	    </li>
+	    <li>
+	      <a class="nav-link" href="#References">References</a>
+	    </li>
+	  
+	  </ul>
+	</nav>
+	<main id="main-doc">
+	  <section class="main-section" id="What_is_Python">
+	    <header>What is Python</header>
+	    <article>
+	      <p>
+	        Python is an interpreted and object-oriented high-level programming language with complex semantics. Its high-level built-in data structures, combined with dynamic typing and dynamic binding, make it ideal for Rapid Application Development as well as use as a scripting or glue language to link together existing components.
+	      </p>
+
+	      <p>
+	        Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+	      </p>
+
+	      <p>
+	      	What can Python do?
+	      </p>
+	      <ul>
+	        <li>
+	          <strong>Web Development</strong> - Python can be used on a server to create web applications </br>
+	        </li>
+	        <li>
+	          <strong>Software Development</strong> - Python can be used for rapid prototyping, or for production-ready software development.
+	        </li>
+	        <li>
+	          <strong>Complex Mathematics</strong> - Python can be used perform complex mathematical calculations even on big data.
+	        </li>
+	        <li>
+	          <strong>Data Mining</strong> - Python can be used to handle big data, connect to database systems, and read and modify files.
+	        </li>
+	      </ul>
+	      <p>Python is becoming wildly used and as a matter of fact has become one of the best programming languages in 2021.</p>
+	    </article>
+	  </section>
+
+	  <section class="main-section" id="Why_Python">
+	    <header>Why Python</header>
+	    <article>
+	      <p>Python's simple, easy-to-learn syntax emphasizes readability, which lowers software maintenance costs. Modules and packages are supported by Python, which facilitates software modularity and code reuse.</p>
+
+	      <p>Advantages of using Python:</p>
+	      <ul>
+	        <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+	        </li>
+	        <li>Python has a simple syntax similar to the English language.</li>
+	        <li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+	        <li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+	        <li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li>
+	      </ul>
+	      <p>Compared to other programming languages, Python is generally the most user-friendly due to the use of new lines, indentation and whitespace to define scope and complete a command instead of using semicolons, parentheses, and curly brackets.  </p>
+	    </article>
+	  </section>
+	  <section class="main-section" id="Start_with_the_Basics">
+	    <header>Start with the Basics</header>
+	    <article>
+	      <p>
+	        Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
+	      </p>
+	      <p>
+	        Before anything else, let's write our first file, called <em>helloWorld.py</em>, in any text editor or any Python IDE.
+	      </p>
+	      <code>print("Hello, world!")</code>
+	      <p>
+	        If you have no Python Integrated Development Environment (IDE) Software such as PyCharm, IDLE or Eclipse, you can run your python file on the command line with this syntax:
+	      </p>
+	      <code>C:\fileLocation>python fileName.py</code>
+	      <p>For our example, the file name is <em>helloWorld.py</em> and is located in the <em>Documents</em>. Therefore, the code should look like this:</p>
+	      <code>C:\Users\Documents>python helloWorld.py</code>
+	      <p>After placing this on the command line, your output should look like this:</p>
+	      <code>Hello, world!</code>
+	      <p>You have now written and executed your first ever Python program!</p>
+	    </article>
+	  </section>
+	  
+	  <section class="main-section" id="Variables">
+	    <header>Variables</header>
+	    <article>
+	      <p> As compared to some languages, Python has no command for declaring a variable. A variable is created when a value is initially assigned to it. For example:</p>
+	      <code>a = 2600
+	      	b = "Baguio City"
+	      </code>
+
+	      The variables <em>a</em> and <em>b</em> are created once <em>2600</em> and <em>Baguio City</em> have been assigned to them respectively.
+	      </p>
+	      <p>Subsequently, because there is no formal declaration, the data types are not needed to be declared and Python will automatically detect the type of data you have assigned.</p>
+	      <code>a = 35  
+	      	a = "Maria" 
+	      	print(a)
+	      </code> 
+	      <p>When assigned the value of 5, the variable <em>a</em> became an integer. When <em>Maria</em> is assigned, variable <em>a</em> changed into a string type.</p>
+		  <p>It should be noted that:</p>
+		  <ul>
+		  	<li>String variables can be declared by either using single or double quotes</li>
+		  	<li>Variable names are case sensitive</li>
+		  </ul>
+	    </article>
+	  </section>
+	  <section class="main-section" id="Data_Types">
+	    <header>Data Types</header>
+	    <article>
+	      <p>
+	        In programming, data type is an important concept. Variables can store data of different types, and these different types can do different things.
+	      </p>
+	      <p>
+	      	In Python, there are built-in data types and are categorized into 7 categories:
+	      </p>
+	      <ol>
+	      	<li>Text Type</li>
+	      	<ul>
+	      		<li><strong>str</strong> - string</li>
+	      	</ul>
+	      	<li>Numeric Types</li>
+	      	<ul>
+	      		<li><strong>int</strong> - integer(e.g. 1, 2, 3)</li>
+	      		<li><strong>float</strong> - float(e.g. 2.1, 1.0, 3.1415)</li>
+	      		<li><strong>complex</strong> - complex(e.g. 3 + 2x)</li>
+	      	</ul>
+	      	<li>Sequence Types</li>
+	      	<ul>
+	      		<li><strong>list</strong> - items are ordered and changeable</li>
+	      		<li><strong>tuple</strong> - items are ordered and unchangeable</li>
+	      		<li><strong>range</strong> - a sequence of numbers</li>
+	      	</ul>
+	      	<li>Mapping Type</li>
+	      	<ul>
+	      		<li><strong>dict</strong> - dictionary</li>
+	      	</ul>
+	      	<li>Set Types</li>
+	      	<ul>
+	      		<li><strong>set</strong> - items are mutable</li>
+	      		<li><strong>frozenset</strong> - items are immutable</li>	
+	      	</ul>
+	      	<li>Boolean Type</li>
+	      	<ul>
+	      		<li><strong>bool</strong> - boolean(true or false)</li>
+	      	</ul>
+	      	<li>Binary Types</li>
+	      	<ul>
+	      		<li><strong>bytes</strong></li>
+	      		<li><strong>bytearray</strong></li>
+	      		<li><strong>memoryview</strong></li>
+	      	</ul>
+	      </ol>
+	      <p>To better understand this, here is a summary of all data types:</p>
+	      <code>#str
+	    	x = "apple"
+
+	    	#int
+	    	x = 5
+
+	    	#float
+	    	x = 2.5
+
+	    	#complex
+	    	x = 4x
+
+	    	#list
+	    	x = ["dog", "cat", "ball"]
+
+	    	#tuple
+	    	x = ("ball", "cat", "dog")
+
+	    	#range
+	    	x = range(2, 30, 2)
+
+	    	#dict
+	    	x = {"name" : "John", "age" : 36}
+
+	    	#set
+	    	x = {"ball", "cat", "dog"}
+
+	    	#frozenset
+	    	x = frozenset{"ball", "cat", "dog"}
+
+	    	#bool
+	    	x = True
+
+	    	#bytes
+	    	x = b"Hello"
+
+	    	#bytearray
+	    	x = bytearray(5)
+
+	    	#memoryview
+	    	x = memoryview(bytes(5))
+	    	</code>
+	      <p>You can also get the data type of a variable by using the <em>type()</em> function.</p>
+	      <code>a = ["apple", "banana", "cherry"]  
+	      	b = "Baguio City" 
+	      	print(type(a))
+	      	print(type(b))
+	      </code> 
+	      <p>The result should look like the following:</p>
+	      <code>&lt;class 'list'&gt;
+			&lt;class 'str'&gt;
+		  </code>
+		  <p>To better understand this, you can go to this <a href="https://www.w3schools.com/python/python_datatypes.asp" target="_blank">link</a></p>
+	    </article>
+	  </section>
+	  <section class="main-section" id="Type_Casting">
+	    <header>Type Casting</header>
+	    <article>
+	      <p>
+	        There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+	      </p>
+	      <p>
+	        Casting in Python is therefore done using constructor functions
+	      </p>
+	      <code>int()
+	      float()
+	  	  str()</code>
+	  	  <p>In code it would look like</p>
+	  	  <code>x = int(2.541) # x will be 2
+	  	  y = float("1") # y will be 1.0
+	  	  z = string(43) # z will be '43'</code>
+	    </article>
+	  </section>
+	  <section class="main-section" id="References">
+	  	<article>
+	  	<header>References</header>
+	  		<p>The information was retrieved from <a href="https://www.w3schools.com/python/default.asp" target="_blank">W3Schools</a> and <a href="https://www.python.org/doc/essays/blurb/" target="_blank">Python</a></p>
+	  	</article>
+	  </section>
+	</main>
+</body>
+</html>
